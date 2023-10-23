@@ -37,7 +37,7 @@ const Home = () => {
 
 
   const writeToGoogleSheets = async (referralAddress: string) => {
-    // Check if referralAddress is empty
+    // Check if referralAddress is empty/
     if (referralAddress.trim() === '') {
       // Do nothing if referralAddress is empty
       return;
